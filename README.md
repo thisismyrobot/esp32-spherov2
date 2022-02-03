@@ -6,7 +6,8 @@ ESP32 running Arduino requires a special combination of ESP32 board software
 
 This repo is a working Arduino project example of connecting to and moving a
 Sphero 2.0. You need to put the contents in a folder named `esp32-spherov2`
-to open as an Arduino project.
+to open as an Arduino project. It was extracted from another project so you
+can probably whittle it down further.
 
 It doesn't yet read async packets back from the Sphero, but I'll add that if
 I get it working.
