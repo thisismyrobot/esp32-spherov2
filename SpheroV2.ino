@@ -20,9 +20,3 @@ void sphero_roll() {
   uint8_t request[] = {0xFF, 0xFE, 0x02, 0x30, 0x01, 0x05, 0x1e, 0x00, 0x00, 0x01, 0xa8};
   SerialBT.write(request, sizeof request);
 }
-
-bool sphero_crashed() {
-//  if (SerialBT.available() > 0) {
-    Serial.println(SerialBT.read());
-//  }
-}
