@@ -15,5 +15,5 @@ I get it working.
 Otherwise, there won't be further development here, this is just to get the
 code out there after many hours of debugging.
 
-This wouldn't have been possible without this comment, thank you:
+This wouldn't have been possible without this comment, thank you [@brownby](https://github.com/brownby):
 https://github.com/espressif/arduino-esp32/issues/3916#issuecomment-625486992
